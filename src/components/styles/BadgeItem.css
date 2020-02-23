@@ -1,0 +1,21 @@
+.Badge__item {
+  background: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px 8px 8px 8px;
+  overflow: hidden;
+  padding: 10px 0px;
+  margin-bottom: 10px;
+}
+
+.Badge__data {
+  margin: 2px 0px;
+}
+
+.twitter {
+  color: #1da1f2;
+  font-size: 0.8em;
+}
+
+.jobTitle {
+  font-size: 0.9em;
+}
