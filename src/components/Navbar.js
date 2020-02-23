@@ -14,7 +14,7 @@ class Navbar extends React.Component {
               alt="Logo"
               width="50px"
             />
-            <span className="font-weight-light">Fran</span>
+            <span className="font-weight-light">React </span>
             <span className="font-weight-bold"> Badges</span>
           </a>
         </div>
