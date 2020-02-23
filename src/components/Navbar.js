@@ -15,7 +15,7 @@ class Navbar extends React.Component {
               width="50px"
             />
             <span className="font-weight-light">Fran</span>
-            <span className="font-weight-bold"> badges</span>
+            <span className="font-weight-bold"> Badges</span>
           </a>
         </div>
       </div>
