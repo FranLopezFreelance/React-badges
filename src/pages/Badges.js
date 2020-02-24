@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import './css/Badges.css'
 import confLogo from '../images/logo.svg'
@@ -40,7 +40,7 @@ class Badges extends React.Component {
   }
   render() {
     return (
-      <div>
+      <Fragment>
         <div className="Badges">
           <div className="Badges__hero">
             <div className="Badges__container">
@@ -63,7 +63,7 @@ class Badges extends React.Component {
         </div>
 
         <BadgesList badges={this.state.data} />
-      </div>
+      </Fragment>
     )
   }
 }

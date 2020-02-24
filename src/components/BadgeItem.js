@@ -6,10 +6,10 @@ class BadgeItem extends React.Component {
   render() {
     return (
       <div className="row Badge__item">
-        <div className="col-md-2">
+        <div className="col-sm-2">
           <img src={this.props.badge.avatarUrl} alt="Avatar URL" />
         </div>
-        <div className="col-md-10">
+        <div className="col-sm-10">
           <p className="font-weight-bold Badge__data name">
             {this.props.badge.firstName} {this.props.badge.lastName}
           </p>
