@@ -1,0 +1,10 @@
+.not-found {
+  font-size: 2.5em;
+  max-width: 380px;
+  height: 200px;
+  text-align: center;
+  margin: 50px auto;
+  color: silver;
+  display: flex;
+  padding: 10px;
+}

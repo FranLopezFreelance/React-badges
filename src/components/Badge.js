@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import './styles/Badge.css'
 import logo from '../images/logo.svg'
 
 class Badge extends React.Component {
   render() {
     return (
-      <div className="Badge">
+      <Fragment className="Badge">
         <div className="Badge__header">
           <img src={logo} alt="Logo" width="50px" />
         </div>
@@ -22,7 +22,7 @@ class Badge extends React.Component {
           <div>@{this.props.twitter}</div>
         </div>
         <div className="Badge__footer">{this.props.hash}</div>
-      </div>
+      </Fragment>
     )
   }
 }
